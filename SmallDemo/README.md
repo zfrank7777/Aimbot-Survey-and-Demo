@@ -1,8 +1,12 @@
 # Small Demo
 
 This demonstrates how memory scanning is done.  
-"victim.cpp" is the first version of the targeted victim program which is not equipped with any defense.  
-"search.cpp" is the program responsible for memory scanning, finding where the HP value is stored.  
+  
+## victim.cpp  
+The first version of the targeted victim program which is not equipped with any defense.  
+
+## search.cpp  
+The program responsible for memory scanning, finding where the HP value is stored.  
   
 "victim_close_privilege.cpp" is an updated version of "victim.cpp". It closes all privileges before the game start.  
 However, it is apparent that read/write permissions to its private memory space is still granted to other programs (e.g. "search.cpp").  
