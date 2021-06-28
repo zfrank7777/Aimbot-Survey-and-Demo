@@ -20,3 +20,6 @@ Instead of closing all privileges, it periodically checks whether a remote debug
 This time, when we try to start a debugger within "CheatEngine", this program stops immediately upon detection.  
 It is worthy to note that this trick does not hinder a debugger-free memory manipulation.  
 Hence, the attacker can still read/write to the program's memory space without being detected.
+  
+## vicitm_guard.cpp  
+This demonstrates how to detect memory modification by setting a hidden variable dependent on the target variable.  
